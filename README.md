@@ -78,7 +78,7 @@ VALUES
 ('10', 'Blessing', 'Mark', 'Blessing.mark@gmail.com', '0803‑123‑0010', 'Uyo');
 </pre>
 
-![image alt](https://github.com/Icemma/SQL_Projects/blob/e5c277c01abe3c27f9d3542032e110c51c4a4cbc/Screenshot%202025-07-25%20155506.png)
+![image alt]()
 
 ## Answers to Analytical Questions and Results
 
@@ -91,8 +91,7 @@ join ProductTB p on o.ProductID = p.ProductID
 where p.ProductID=1
 </pre>
 
-![image alt](https://github.com/Icemma/SQL_Projects/blob/7501c6152a7c11c8af3d1c4ce76bc412a164346f/Screenshot%202025-07-25%20154957.png)
-
+![image alt]
 2. *List all customers’ full names in ascending alphabetical order (LastName, then FirstName)*
 <pre>
 --List all customers’ full names in ascending alphabetical order (LastName, then FirstName)
@@ -101,8 +100,7 @@ FROM CustomerTB
 ORDER BY LastName ASC, FirstName ASC;
 </pre>
 
-![image alt](https://github.com/Icemma/SQL-Projects/blob/d53af83ffe091da35c95addf486b816306b63887/Screenshot%202025-07-25%20155057.png)
-
+![image alt]
 3. *Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.*
 <pre>
 --Show every order together with the customer’s full name, the product name, quantity, unit price, total price (quantity × unit price), and order date.
@@ -120,8 +118,7 @@ GROUP BY
     c.FirstName, c.LastName, p.ProductName, o.Quantity,p.UnitPrice;
 </pre>
 
-![image alt](https://github.com/Icemma/SQL-Projects/blob/6c540b1e59f96f1da2ec2ae2aea086105372cd7a/Screenshot%202025-07-25%20155206.png)
-
+![image alt](
 4. *Show average sales per product category and sort in descending order*
 <pre>
 --Show average sales per product category and sort in descending order
@@ -134,7 +131,7 @@ GROUP BY p.Category
 ORDER BY AverageSales DESC;
 </pre>
 
-![image alt](https://github.com/Icemma/SQL-Projects/blob/e79ec3850d68577c85c7355ace41d7afa8966cab/Screenshot%202025-07-25%20155237.png)
+![image alt](
 
 5. *Which city generated the highest revenue for AxiaStores?*
 <pre>
@@ -156,7 +153,7 @@ ORDER BY
     TotalRevenue DESC;
 </pre>
 
-![image alt](https://github.com/Icemma/SQL-Projects/blob/493e758d1cba6b3a17ab3402e8bf235f9a3268ef/Screenshot%202025-07-25%20155303.png)
+![image alt](
 
 ### References
 - [Axia Africa SQL Exam](https://drive.google.com/file/d/13chnDFUr7NqbyPSRqy65d9pgeVCM86Ix/view)
