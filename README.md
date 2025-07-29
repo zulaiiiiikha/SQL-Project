@@ -156,7 +156,7 @@ ORDER BY
     TotalRevenue DESC;
 </pre>
 
-![image alt](https://github.com/Icemma/SQL-Projects/blob/493e758d1cba6b3a17ab3402e8bf235f9a3268ef/Screenshot%202025-07-25%20155303.png)
+![image alt](https://github.com/zulaiiiiikha/SQL-Project/blob/23cdb8709cd220f32e138ea428492ded9e1196f7/QT5.png)
 
 ### References
 - [Axia Africa SQL Exam](https://drive.google.com/file/d/13chnDFUr7NqbyPSRqy65d9pgeVCM86Ix/view)
