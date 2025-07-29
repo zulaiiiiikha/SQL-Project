@@ -91,7 +91,7 @@ join ProductTB p on o.ProductID = p.ProductID
 where p.ProductID=1
 </pre>
 
-![image alt](https://github.com/Icemma/SQL_Projects/blob/7501c6152a7c11c8af3d1c4ce76bc412a164346f/Screenshot%202025-07-25%20154957.png)
+![image alt](https://github.com/zulaiiiiikha/SQL-Project/blob/2fd4b5cb1064fe3fe355a8852317d42dab141e96/QT1.png)
 
 2. *List all customers’ full names in ascending alphabetical order (LastName, then FirstName)*
 <pre>
